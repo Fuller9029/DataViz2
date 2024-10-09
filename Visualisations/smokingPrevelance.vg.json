@@ -4,7 +4,7 @@
     "height": 500,
     "title": "Smoking Prevalence (% of Adults)",
     "data": {
-        "url": "visualisations/countries-110m.json",
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
         "format": {
             "type": "topojson",
             "feature": "countries"
@@ -15,7 +15,7 @@
             "lookup": "properties.name",
             "from": {
                 "data": {
-                    "url": "visualisations/Smoking Prevalence Data.csv",
+                    "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/refs/heads/main/Data/Percentage%20of%20people%20who%20smoke.csv",
                     "format": {
                         "type": "csv"
                     }
