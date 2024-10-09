@@ -1,0 +1,62 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 500,
+    "title": "World Cigarette Tax Map",
+    "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        "format": {
+            "type": "topojson",
+            "feature": "countries"
+        }
+    },
+    "transform": [
+        {
+            "lookup": "properties.name",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/main/Data/World%20Tax%20Cigarettes.csv",
+                    "format": {
+                        "type": "csv"
+                    }
+                },
+                "key": "Countries, territories and areas",
+                "fields": ["2022", "2020", "2018", "2016", "2014", "2012", "2010", "2008"]
+            }
+        },
+        {
+            "calculate": "datum['2022'] == null ? 0 : datum['2022']",
+            "as": "Tax"
+        }
+    ],
+    "projection": {
+        "type": "mercator"
+    },
+    "mark": {
+        "type": "geoshape",
+        "stroke": "black",
+        "strokeWidth": 0.5
+    },
+    "encoding": {
+        "color": {
+            "field": "Tax",
+            "type": "quantitative",
+            "scale": {
+                "scheme": "blues"
+            },
+            "title": "Cigarette Tax (%)"
+        },
+        "tooltip": [
+            {"field": "properties.name", "type": "nominal", "title": "Country"},
+            {"field": "Tax", "type": "quantitative", "title": "Tax Percentage"}
+        ]
+    },
+    "config": {
+        "view": {
+            "stroke": "transparent"
+        },
+        "mark": {
+            "tooltip": true
+        }
+    }
+}

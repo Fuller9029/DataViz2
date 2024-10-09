@@ -1,5 +1,16 @@
-var vg_1 = "map.vg.json";
-vegaEmbed("#map", vg_1).then(function(result) {
-// Access the Vega view instance () as result.view
-
+var vg_1 = "Visualisations/cigaretteTax.vg.json";
+vegaEmbed("#map1", vg_1).then(function(result) {
+    // Access the Vega view instance if needed
 }).catch(console.error);
+
+var vg_2 = "Visualisations/smokingPrevelance.vg.json";
+vegaEmbed("#map2", vg_2).then(function(result) {
+    // Access the Vega view instance if needed
+}).catch(console.error);
+
+fetch("https://raw.githubusercontent.com/Fuller9029/DataViz2/main/Data/World%20Tax%20Cigarettes.csv")
+    .then(response => response.text())
+    .then(data => {
+        console.log(data);  // Check the output in the browser console
+    })
+    .catch(console.error);
