@@ -1,32 +1,12 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
-    "height": 300,
+    "title": { "text": "Cheapest European Cities" },
     "data": {
-    "url": "data/us-10m.json",
-    "format": {
-        "type": "topojson",
-        "feature": "counties"
-        }
+        "url": "https://raw.githubusercontent.com/FIT3179/Datasets/main/city_daily_cost.csv"
     },
-    "transform": [{
-    "lookup": "id",
-    "from": {
-        "data": {
-        "url": "data/unemployment.tsv"
-        },
-        "key": "id",
-        "fields": ["rate"]
-        }
-    }],
-    "projection": {
-    "type": "albersUsa"
-    },
-    "mark": "geoshape",
+    "mark": "bar",
     "encoding": {
-    "color": {
-        "field": "rate",
-        "type": "quantitative"
-        }
+        "x": { "field": "daily_cost", "type": "quantitative" },
+        "y": { "field": "city", "type": "nominal" }
     }
 }
