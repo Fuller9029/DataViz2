@@ -5,50 +5,50 @@
     "title": "Smoking Prevalence (% of Adults)",
     "data": {
         "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
-        "format": {
-            "type": "topojson",
-            "feature": "countries"
-        }
-    },
+        "format": {"type": "topojson", "feature": "countries"}
+        },
     "transform": [
         {
-            "lookup": "properties.name",
-            "from": {
-                "data": {
-                    "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/refs/heads/main/Data/Percentage%20of%20people%20who%20smoke.csv",
-                    "format": {
-                        "type": "csv"
-                    }
-                },
-                "key": "Country Name",
-                "fields": ["1965"]
-            }
-        },
+        "lookup": "properties.name",
+        "from": {
+            "data": {
+                "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/refs/heads/main/Data/Percentage%20of%20people%20who%20smoke.csv",
+                "format": {"type": "csv"}
+            },
+            "key": "Country Name",
+            "fields": ["2000", "2005", "2010", "2015", "2018", "2019", "2020"]  
+                }
+            },
         {
-            "calculate": "datum['1965'] == null || datum['1965'] === '' ? 0 : +datum['1965']",
-            "as": "Prevalence"
+        "calculate": "datum[year] == null || datum[year] === '' ? 0 : +datum[year]",
+        "as": "Prevalence"
         }
     ],
-    "projection": {
-        "type": "mercator"
-    },
-    "mark": {
-        "type": "geoshape",
-        "stroke": "black",
-        "strokeWidth": 0.5
-    },
+    "params": [
+        {
+        "name": "year",
+        "value": 2015,
+        "bind": {
+            "input": "select",
+            "options": [2000, 2005, 2010, 2015, 2018, 2019, 2020],  
+            "labels": ["2000", "2005", "2010", "2015", "2018", "2019", "2020"],  
+            "name": "Year: "
+            }
+        }
+    ],
+    "projection": {"type": "mercator"},
+    "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.5},
     "encoding": {
         "color": {
             "field": "Prevalence",
             "type": "quantitative",
-            "scale": {
-                "scheme": "reds"
-            },
+            "scale": {"scheme": "reds"},
             "title": "Smoking Prevalence (%)"
         },
         "tooltip": [
             {"field": "properties.name", "type": "nominal", "title": "Country"},
-            {"field": "Prevalence", "type": "quantitative", "title": "Prevalence (%)"}
+            {"field": "Prevalence", "type": "quantitative", "title": "Prevalence (%)"},
+            {"field": "year", "type": "quantitative", "title": "Year"}
         ]
     }
 }
