@@ -21,11 +21,11 @@
                     }
                 },
                 "key": "Country Name",
-                "fields": ["2005"]
+                "fields": ["2023"]
             }
         },
         {
-            "calculate": "datum['2005'] == null ? 0 : datum['2005']",
+            "calculate": "datum['2023'] == null || datum['2023'] === '' ? 0 : +datum['2023']",
             "as": "Prevalence"
         }
     ],
