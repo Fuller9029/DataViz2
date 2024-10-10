@@ -8,6 +8,11 @@ vegaEmbed("#map2", vg_2).then(function(result) {
     // Access the Vega view instance if needed
 }).catch(console.error);
 
+var vg_3 = "Visualisations/retail_price_line.vg.json";
+vegaEmbed("#Line_chart1", vg_3).then(function(result) {
+    // Access the Vega view instance if needed
+}).catch(console.error);
+
 fetch("https://raw.githubusercontent.com/Fuller9029/DataViz2/main/Data/World%20Tax%20Cigarettes.csv")
     .then(response => response.text())
     .then(data => {
