@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cigarette Tax Rate and Prices Visualization</title>
+    <title>Smoking Visualization</title>
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
@@ -17,6 +17,22 @@
         h1 {
             text-align: center;
             color: #343A40;
+        }
+
+        h2.big-title {
+            text-align: center;
+            color: #343A40;
+            margin-top: 50px;
+            font-size: 36px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtext {
+            text-align: center;
+            color: #6C757D;
+            font-size: 18px;
+            margin-top: 10px;
         }
 
         .container {
@@ -44,7 +60,7 @@
             color: #6C757D;
         }
 
-        #map1, #map2, #Line_chart1 {
+        #map1, #map2, #Line_chart1, #prevalence_chart {
             height: 400px;
             width: 100%;
         }
@@ -53,25 +69,40 @@
 </head>
 <body>
     <div class="container">
-        <h1>Cigarette Tax Rates and Prices Across Countries</h1>
-        
-        <!-- Description or story section -->
+        <!-- Main Title and Subtext -->
+        <h1 class="big-title">Smoking</h1>
+        <p class="subtext">Smoking is one of the biggest problems today, leading to serious health issues and high mortality rates.</p>
+
+        <!-- Global Smoking Rates Section -->
+        <h2 class="big-title">Global Smoking Rates</h2>
         <p class="description">
-            This visualization provides insights into cigarette pricing across different countries,
-            including tax rates, most sold brands, and trends over the years. By understanding how these
-            prices change, we can explore the influence of taxes on smoking habits globally.
+            This section shows the global rates of smoking in different countries. Explore how smoking prevalence varies across the world and understand how it impacts public health.
         </p>
 
-        <!-- First map visualization -->
+        <!-- Smoking Prevalence Map -->
+        <div class="chart">
+            <h2>Global Map: Smoking Prevalence</h2>
+            <div id="map2"></div> <!-- Placeholder for Smoking Prevalence chart -->
+        </div>
+
+        <!-- First map visualization (Cigarette Tax Rates) -->
+        <div class="chart">
+            <h2>Deaths Related to Smoking</h2>
+            <div id=""></div>
+        </div>
+
+        <!-- Storytelling section for reducing smoking -->
+        <h2 class="big-title">What Can Be Done to Reduce Smoking?</h2>
+        <p class="description">
+            Increasing cigarette prices through higher taxes is one of the most effective ways to reduce smoking rates. 
+            This visualization shows how different countries apply taxes and how that impacts cigarette prices. 
+            Explore how pricing strategies can contribute to a healthier population globally.
+        </p>
+
+        <!-- Second map visualization (Cigarette Retail Prices) -->
         <div class="chart">
             <h2>Global Map: Cigarette Tax Rates</h2>
             <div id="map1"></div>
-        </div>
-
-        <!-- Second map visualization -->
-        <div class="chart">
-            <h2>Global Map: Cigarette Retail Prices</h2>
-            <div id="map2"></div>
         </div>
 
         <!-- Line chart visualization -->
