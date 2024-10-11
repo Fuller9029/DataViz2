@@ -65,6 +65,22 @@
             width: 100%;
         }
 
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .chart.flex-item {
+            flex: 1;
+        }
+
+        @media (max-width: 768px) {
+            .flex-container {
+                flex-direction: column;
+            }
+        }
     </style>
 </head>
 <body>
@@ -85,13 +101,7 @@
             <div id="map2"></div> <!-- Placeholder for Smoking Prevalence chart -->
         </div>
 
-        <!-- First map visualization (Cigarette Tax Rates) -->
-        <div class="chart">
-            <h2>Deaths Related to Smoking</h2>
-            <div id=""></div>
-        </div>
-
-        <!-- Storytelling section for reducing smoking -->
+        <!-- What Can Be Done to Reduce Smoking? -->
         <h2 class="big-title">What Can Be Done to Reduce Smoking?</h2>
         <p class="description">
             Increasing cigarette prices through higher taxes is one of the most effective ways to reduce smoking rates. 
@@ -99,16 +109,31 @@
             Explore how pricing strategies can contribute to a healthier population globally.
         </p>
 
-        <!-- Second map visualization (Cigarette Retail Prices) -->
-        <div class="chart">
-            <h2>Global Map: Cigarette Tax Rates</h2>
-            <div id="map1"></div>
+        <!-- Flex container to display charts side by side -->
+        <div class="flex-container">
+            <!-- Cigarette Tax Rates Map -->
+            <div class="chart flex-item">
+                <h2>Global Map: Cigarette Tax Rates</h2>
+                <div id="map1"></div>
+            </div>
+
+            <!-- Line Chart for Cigarette Prices -->
+            <div class="chart flex-item">
+                <h2>Trends in Cigarette Prices (Most Sold Brand)</h2>
+                <div id="Line_chart1"></div>
+            </div>
         </div>
 
-        <!-- Line chart visualization -->
+        <!-- Australia Section -->
+        <h2 class="big-title">Australia Combating Cigarettes</h2>
+        <p class="description">
+            This section focuses on Australia's efforts in combating smoking, including policies, cigarette taxes, and smoking rates.
+        </p>
+
+        <!-- Placeholder for future content about Australia -->
         <div class="chart">
-            <h2>Trends in Cigarette Prices (Most Sold Brand)</h2>
-            <div id="Line_chart1"></div>
+            <h2>Australia's Smoking Policies and Effects</h2>
+            <div id="australia_chart"></div> <!-- Placeholder for future visualizations related to Australia -->
         </div>
 
     </div>

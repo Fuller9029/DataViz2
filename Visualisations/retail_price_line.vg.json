@@ -1,51 +1,72 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Retail price of the most sold brand of cigarettes in US$ over time for selected countries.",
+    "width": 800,
+    "height": 500,
+    "title": "World Cigarette Prices Map (Most Sold Brand, Price in US$)",
     "data": {
-        "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/refs/heads/main/Data/retail_price_cigarettes_20.csv",
-        "format": {"type": "csv"}
+      "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+      "format": {
+        "type": "topojson",
+        "feature": "countries"
+      }
     },
     "transform": [
-        {
-        "filter": "datum['Countries, territories and areas'] == 'United States' || datum['Countries, territories and areas'] == 'United Kingdom' || datum['Countries, territories and areas'] == 'Australia' || datum['Countries, territories and areas'] == 'Germany' || datum['Countries, territories and areas'] == 'France' || datum['Countries, territories and areas'] == 'Japan'"
-            },
-        {
-        "filter": "datum['Most sold brand of cigarettes - price in US$ at official exchange rates'] != ''"
+      {
+        "lookup": "properties.name",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/refs/heads/main/Data/retail_price_cigarettes_20.csv",
+            "format": {"type": "csv"}
+          },
+          "key": "Countries, territories and areas",
+          "fields": ["Year", "Most sold brand of cigarettes - price in US$ at official exchange rates"]
         }
+      },
+      {
+        "calculate": "datum['Most sold brand of cigarettes - price in US$ at official exchange rates'] == null ? 0 : datum['Most sold brand of cigarettes - price in US$ at official exchange rates']",
+        "as": "CigarettePrice"
+      }
     ],
-    "encoding": {
-        "x": {"field": "Year", "type": "temporal", "title": "Year"},
-        "y": {
-            "field": "Most sold brand of cigarettes - price in US$ at official exchange rates",
-            "type": "quantitative",
-            "title": "Price in US$"
-        },
-        "color": {
-            "field": "Countries, territories and areas",
-            "type": "nominal",
-            "scale": {
-            "domain": [
-                "United States",
-                "United Kingdom",
-                "Australia",
-                "Germany",
-                "France",
-                "Japan"
-            ],
-            "range": [
-                "#F4A261",  
-                "#2A9D8F",  
-                "#E9C46A",  
-                "#9C6644", 
-                "#FFB4A2",  
-                "#A5A58D"   
-                ]
-            },
-            "title": "Country"
-        }
-        },
+    "projection": {
+      "type": "mercator"
+    },
     "mark": {
-        "type": "line",
-        "point": true
+      "type": "geoshape",
+      "stroke": "black",
+      "strokeWidth": 0.5
+    },
+    "encoding": {
+      "color": {
+        "field": "CigarettePrice",
+        "type": "quantitative",
+        "scale": {
+          "scheme": "greens"
+        },
+        "title": "Cigarette Price (US$)"
+      },
+      "tooltip": [
+        {"field": "properties.name", "type": "nominal", "title": "Country"},
+        {"field": "CigarettePrice", "type": "quantitative", "title": "Price in US$"}
+      ]
+    },
+    "params": [
+      {
+        "name": "selectedYear",
+        "value": 2020,
+        "bind": {
+          "input": "select",
+          "options": [2020, 2018, 2016, 2014, 2012, 2010, 2008],
+          "name": "Select Year: "
+        }
+      }
+    ],
+    "config": {
+      "view": {
+        "stroke": "transparent"
+      },
+      "mark": {
+        "tooltip": true
+      }
     }
-}
+  }
+  
