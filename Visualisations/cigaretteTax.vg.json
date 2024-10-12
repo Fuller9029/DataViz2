@@ -9,7 +9,7 @@
     },
     "transform": [
       {
-        "filter": "datum['Countries, territories and areas'] == 'United States' || datum['Countries, territories and areas'] == 'Germany' || datum['Countries, territories and areas'] == 'Japan' || datum['Countries, territories and areas'] == 'Australia' || datum['Countries, territories and areas'] == 'South Africa' || datum['Countries, territories and areas'] == 'Brazil'"
+        "filter": "datum['Countries, territories and areas'] == 'United States of America' || datum['Countries, territories and areas'] == 'Germany' || datum['Countries, territories and areas'] == 'Japan' || datum['Countries, territories and areas'] == 'Australia' || datum['Countries, territories and areas'] == 'South Africa' || datum['Countries, territories and areas'] == 'Brazil'"
       },
       {
         "fold": ["2022", "2020", "2018", "2016", "2014", "2012", "2010", "2008"],
@@ -20,27 +20,27 @@
         "as": "TaxPercentage"
       }
     ],
-    "repeat": {
-      "layer": ["United States", "Germany", "Japan", "Australia", "South Africa", "Brazil"]
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      "y": {
+        "field": "TaxPercentage",
+        "type": "quantitative",
+        "title": "Cigarette Tax (%)"
+      },
+      "color": {
+        "field": "Countries, territories and areas",
+        "type": "nominal",
+        "title": "Country"
+      }
     },
-    "spec": {
-      "layer": [
-        {
-          "mark": {"type": "line", "stroke": "white", "strokeWidth": 4},
-          "encoding": {
-            "x": {"field": "Year", "type": "temporal", "title": "Year"},
-            "y": {"field": "TaxPercentage", "type": "quantitative", "title": "Cigarette Tax (%)"}
-          }
-        },
-        {
-          "mark": {"type": "line"},
-          "encoding": {
-            "x": {"field": "Year", "type": "temporal"},
-            "y": {"field": "TaxPercentage", "type": "quantitative"},
-            "color": {"datum": {"repeat": "layer"}, "type": "nominal", "title": "Country"}
-          }
-        }
-      ]
+    "config": {
+      "view": {"stroke": "transparent"},
+      "axis": {"labelColor": "black", "titleColor": "black"}
     }
   }
   
