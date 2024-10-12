@@ -18,7 +18,7 @@
             "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/refs/heads/main/Data/retail_price_cigarettes_20.csv",
             "format": {"type": "csv"}
           },
-          "key": "Countries, territories and areas",
+          "key": "Countries", 
           "fields": ["Year", "Most sold brand of cigarettes - price in US$ at official exchange rates"]
         }
       },

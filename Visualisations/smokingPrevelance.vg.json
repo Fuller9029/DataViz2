@@ -47,8 +47,7 @@
         },
         "tooltip": [
             {"field": "properties.name", "type": "nominal", "title": "Country"},
-            {"field": "Prevalence", "type": "quantitative", "title": "Prevalence (%)"},
-            {"field": "year", "type": "quantitative", "title": "Year"}
+            {"field": "Prevalence", "type": "quantitative", "title": "Prevalence (%)"}
         ]
     }
 }
