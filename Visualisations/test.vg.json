@@ -1,0 +1,133 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Faceted Line Chart showing the evolution of advertising bans over time across different countries.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/main/Data/World%20Tax%20Cigarettes.csv",
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "fold": [
+          "Ban on advertising on national television and radio",
+          "Ban on advertising on international television and radio",
+          "Ban on advertising in local magazines and newspapers",
+          "Ban on advertising in international magazines and newspapers",
+          "Ban on billboard and outdoor advertising",
+          "Ban on advertising at point of sale",
+          "Ban on advertising on the internet",
+          "Law requires fines for violations of advertising bans",
+          "Overall compliance with bans on direct advertising (score)",
+          "Ban on free distribution in mail or through other means",
+          "Ban on promotional discounts",
+          "Ban on identifying non-tobacco products with tobacco brand names",
+          "Ban on use of brand name of non-tobacco product for tobacco product",
+          "Ban on appearance of tobacco brands in TV and/or films (product placement)",
+          "Ban on appearance of tobacco products in TV and/or films",
+          "Required anti-tobacco ads for any visual entertainment media product that depicts tobacco products, use or images",
+          "Ban on sponsorship (contributions and/or publicity of contributions)",
+          "Ban on any form of contribution (financial or other support) to any event, activity or individual",
+          "Banning the publicity of financial or other sponsorship or support by the tobacco industry of events, activities, individuals",
+          "Law requires fines for violations of promotion and sponsorship bans",
+          "Overall compliance with bans on promotion and sponsorship (score)",
+          "Ban on Corporate Social Responsibility activities (CSR)",
+          "Ban on tobacco companies/the tobacco industry publicizing their CSR activities",
+          "Ban on entities other than tobacco companies/the tobacco industry publicizing the CSR activities of the tobacco companies/industry",
+          "Ban on tobacco companies funding or making contributions (including in-kind contributions) to smoking prevention media campaigns, including those directed at youth",
+          "Ban on product display at point of sale",
+          "Ban on tobacco vending machines",
+          "Ban on internet sales of tobacco products",
+          "Subnational bans on tobacco advertising, promotion and sponsorship authority exists",
+          "Subnational bans on advertising, promotion and sponsorship - at least one jurisdiction has a comprehensive ban in place"
+        ],
+        "as": ["Advertising Measure", "Bans"]
+      },
+      {
+        "filter": "datum['Countries, territories and areas'] != null && datum['Year'] != null"
+      }
+    ],
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "ordinal",
+        "title": "Year",
+        "axis": {"labelAngle": 0, "tickCount": 10}
+      },
+      "y": {
+        "field": "Bans",
+        "type": "nominal",
+        "title": "Ban Status",
+        "axis": {"grid": true}
+      },
+      "color": {
+        "field": "Advertising Measure",
+        "type": "nominal",
+        "title": "Advertising Measures",
+        "scale": {
+          "domain": [
+            "Ban on advertising on national television and radio",
+            "Ban on advertising on international television and radio",
+            "Ban on advertising in local magazines and newspapers",
+            "Ban on advertising in international magazines and newspapers",
+            "Ban on billboard and outdoor advertising",
+            "Ban on advertising at point of sale",
+            "Ban on advertising on the internet",
+            "Law requires fines for violations of advertising bans",
+            "Overall compliance with bans on direct advertising (score)",
+            "Ban on free distribution in mail or through other means",
+            "Ban on promotional discounts",
+            "Ban on identifying non-tobacco products with tobacco brand names",
+            "Ban on use of brand name of non-tobacco product for tobacco product",
+            "Ban on appearance of tobacco brands in TV and/or films (product placement)",
+            "Ban on appearance of tobacco products in TV and/or films",
+            "Required anti-tobacco ads for any visual entertainment media product that depicts tobacco products, use or images",
+            "Ban on sponsorship (contributions and/or publicity of contributions)",
+            "Ban on any form of contribution (financial or other support) to any event, activity or individual",
+            "Banning the publicity of financial or other sponsorship or support by the tobacco industry of events, activities, individuals",
+            "Law requires fines for violations of promotion and sponsorship bans",
+            "Overall compliance with bans on promotion and sponsorship (score)",
+            "Ban on Corporate Social Responsibility activities (CSR)",
+            "Ban on tobacco companies/the tobacco industry publicizing their CSR activities",
+            "Ban on entities other than tobacco companies/the tobacco industry publicizing the CSR activities of the tobacco companies/industry",
+            "Ban on tobacco companies funding or making contributions (including in-kind contributions) to smoking prevention media campaigns, including those directed at youth",
+            "Ban on product display at point of sale",
+            "Ban on tobacco vending machines",
+            "Ban on internet sales of tobacco products",
+            "Subnational bans on tobacco advertising, promotion and sponsorship authority exists",
+            "Subnational bans on advertising, promotion and sponsorship - at least one jurisdiction has a comprehensive ban in place"
+          ],
+          "range": ["#6fa3ef", "#f39c42", "#16a085", "#e74c3c", "#8e44ad", "#f1c40f"]
+        }
+      },
+      "facet": {
+        "field": "Countries, territories and areas",
+        "type": "nominal",
+        "title": "Countries",
+        "columns": 3
+      }
+    },
+    "config": {
+      "view": {"stroke": "transparent"},
+      "axis": {
+        "labelColor": "black",
+        "titleColor": "black",
+        "grid": true,
+        "gridColor": "#e0e0e0",
+        "gridOpacity": 0.5
+      },
+      "legend": {
+        "title": {"fontSize": 14, "fontWeight": "bold"},
+        "labelFont": "Arial",
+        "labelFontSize": 12,
+        "labelColor": "#333333"
+      },
+      "title": {
+        "text": "Evolution of Advertising Bans by Country Over Time",
+        "anchor": "middle",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "color": "#333333"
+      }
+    }
+  }
+  

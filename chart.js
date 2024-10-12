@@ -8,8 +8,13 @@ vegaEmbed("#map2", vg_2).then(function(result) {
     // Access the Vega view instance if needed
 }).catch(console.error);
 
-var vg_3 = "Visualisations/retail_price_line.vg.json";
+var vg_3 = "Visualisations/cigarettePrice.vg.json";
 vegaEmbed("#Line_chart1", vg_3).then(function(result) {
+    // Access the Vega view instance if needed
+}).catch(console.error);
+
+var vg_4 = "Visualisations/test.vg.json";
+vegaEmbed("#test", vg_4).then(function(result) {
     // Access the Vega view instance if needed
 }).catch(console.error);
 

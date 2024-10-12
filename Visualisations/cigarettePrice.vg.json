@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 500,
+  "title": "World Cigarette Prices Map (Most Sold Brand, Price in US$)",
+  "data": {
+    "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+    "format": {
+      "type": "topojson",
+      "feature": "countries"
+    }
+  },
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/refs/heads/main/Data/retail_price_cigarettes_20.csv",
+          "format": {"type": "csv"}
+        },
+        "key": "Countries",
+        "fields": ["Year", "Most sold brand of cigarettes - price in US$ at official exchange rates"]
+      }
+    },
+    {
+      "filter": "datum.Year == selectedYear"
+    },
+    {
+      "calculate": "datum['Most sold brand of cigarettes - price in US$ at official exchange rates'] == null ? 0 : datum['Most sold brand of cigarettes - price in US$ at official exchange rates']",
+      "as": "CigarettePrice"
+    },
+    {
+      "calculate": "datum.CigarettePrice === null ? 0 : datum.CigarettePrice",
+      "as": "CigarettePrice"
+    }
+  ],
+  "projection": {
+    "type": "mercator"
+  },
+  "mark": {
+    "type": "geoshape",
+    "stroke": "black",
+    "strokeWidth": 0.5
+  },
+  "encoding": {
+    "color": {
+      "field": "CigarettePrice",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "greens"
+      },
+      "title": "Cigarette Price (US$)"
+    },
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "Country"},
+      {"field": "CigarettePrice", "type": "quantitative", "title": "Price in US$"}
+    ]
+  },
+  "params": [
+    {
+      "name": "selectedYear",
+      "value": 2020,
+      "bind": {
+        "input": "select",
+        "options": [2020, 2018, 2016, 2014, 2012, 2010, 2008],
+        "name": "Select Year: "
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    },
+    "mark": {
+      "tooltip": true
+    }
+  }
+}
