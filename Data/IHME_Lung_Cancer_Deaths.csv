@@ -1,0 +1,223 @@
+measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1980,828845.5425398845,899552.3730171663,774601.5199199996
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1980,0.01881074177578451,0.020364263765764317,0.017696143960172665
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1980,18.540390156070988,20.12202648813207,17.327009264951553
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1981,846712.4065139749,920404.3789249659,798425.0860463998
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1981,0.019148230275795847,0.020664851375524058,0.018055723465335544
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1981,18.601716917417427,20.22068127807811,17.540876118194245
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1983,889206.5979712117,953198.1869514297,835123.4443041864
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1983,0.019860926391511376,0.02126275514322832,0.018790155102274456
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1983,18.843725969217783,20.199811236499023,17.697616471629992
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1982,864519.1429313462,930755.3605467716,809714.5617037589
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1982,0.01950333046002029,0.020969554301394404,0.018418206271953782
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1982,18.655679090354948,20.08500732454815,17.473037053538466
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1984,915849.7718177845,985683.53915249,869771.3643523367
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1984,0.02027820592046154,0.021768456949843123,0.019287988406321677
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1984,19.05725456009558,20.51037484460086,18.09844235331854
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1985,948287.9292625163,1014668.8968031622,902633.5097530278
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1985,0.02098463026736553,0.02220025205200421,0.020036822403978864
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1985,19.375401976908783,20.731696716119902,18.44259169564042
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1986,958425.0688515304,1017087.9091793618,909745.7668815563
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1986,0.021318194862382258,0.022559547717129237,0.020312104700237067
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1986,19.23246277454396,20.409634500869892,18.255628076188042
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1987,991981.4281506042,1048426.3483224356,941265.5680719704
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1987,0.021969188504903345,0.02316480839176012,0.020952622759431758
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1987,19.556978069050817,20.669793324037844,18.55711160465535
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1988,1020717.4237964435,1086183.4566249268,971145.7101553602
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1988,0.02245626203282214,0.02365803306155437,0.021539145796626125
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1988,19.77936619612624,21.04796082039164,18.81877019353265
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1989,1050786.0055291103,1108947.2061748032,995022.5607517818
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1989,0.022972483307854487,0.02411078374765873,0.0220176968857637
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1989,20.022917804686923,21.131190025503397,18.960335256568175
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1990,1080127.6064353555,1135557.1167419683,1023326.892104563
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1990,0.02343128088778984,0.02454007314487481,0.02242437596682271
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1990,20.251291106209163,21.2905378974271,19.186335637892157
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1991,1101318.8867081085,1159205.9621778266,1049162.9874024885
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1991,0.023638073084894146,0.02471026913929457,0.022650240029080174
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1991,20.33261432284646,21.401328928587326,19.36970902989156
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1992,1125868.8026780493,1176894.4835739806,1073356.8695075721
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1992,0.023953399161324558,0.024876379665113663,0.02304598046562107
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1992,20.480739914107353,21.408950818329924,19.52549251486034
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1994,1176177.8682634083,1223155.706908621,1127214.6549790378
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1994,0.024043944321465956,0.024948629906483347,0.023066848265368364
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1994,20.815615929121527,21.647014540509094,19.949080798777732
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1995,1204270.7804644073,1253346.634964905,1153119.0942196643
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1995,0.024605806815795085,0.025438977490765933,0.023645758537656845
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1995,21.038747337222492,21.89610809025519,20.145121567807877
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1997,1232565.8336359782,1278600.0009792221,1183346.1501793384
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1997,0.02512188105112779,0.025967802552778065,0.024165923831422752
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1997,20.986715589549792,21.770532527412215,20.14865934141819
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1998,1256841.4343334131,1303800.0996246478,1202672.2297235639
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1998,0.025413507818621846,0.026348350278369827,0.024358612959515136
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1998,21.130906744434718,21.92040902372459,20.220175780478215
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1999,1285983.935651564,1335440.7448741624,1233952.8830005645
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1999,0.025765738713842704,0.026659324788325438,0.024656350549738137
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1999,21.351630678248824,22.172778980160178,20.48774133312901
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2000,1324396.5467206822,1373047.451992723,1269363.0587945648
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2000,0.026336110836925494,0.027270906032148146,0.025325296842460977
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2000,21.715768896523777,22.51348451886535,20.81339980749803
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2001,1350809.4642949707,1399619.911139745,1288821.4614742326
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2001,0.02667082367639735,0.02768344987758862,0.02557631237057743
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2001,21.87119637247888,22.66149500169949,20.86753758990016
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2003,1413360.4792632589,1466552.2131538468,1348400.2527895737
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2003,0.027351556762543423,0.028260687413768793,0.026269732078969293
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2003,22.306405963083392,23.1459061666424,21.281169157303182
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2004,1448942.546110874,1504709.172658104,1382295.8484665398
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2004,0.027814220349177608,0.028825824510743323,0.026637090280082112
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2004,22.574923780193476,23.443783175040664,21.53654988223541
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2006,1484932.573471669,1540047.9433420766,1420084.8896780673
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2006,0.02874313971954182,0.02969051234376754,0.027555574937613816
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2006,22.53749805562272,23.374009129243504,21.553275220512425
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2005,1475934.378272152,1529072.1127302041,1408352.395409123
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2005,0.028297593240234568,0.02923499158025258,0.02713007084759936
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2005,22.698483840317447,23.515692264122293,21.659136448932124
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2007,1512687.2860072502,1575442.9784381688,1443000.3338404237
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2007,0.029209843535832614,0.03027444296913557,0.027993149380333707
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2007,22.653887309152363,23.593711684942768,21.6102609258881
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2008,1553123.4375520952,1614685.339283444,1478812.612812772
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2008,0.029594855078444244,0.030697389981896125,0.02820524297053513
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2008,22.94621100125418,23.855741018386954,21.848325396724775
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2009,1593997.538908575,1654351.1099162495,1517518.0492087898
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2009,0.030396750696215415,0.03147911558080886,0.02898526746388278
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2009,23.232519063905183,24.112172548169994,22.117830264784025
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2010,1626297.502292407,1689964.741532239,1541870.0147808427
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2010,0.03064513617166491,0.0317573754004372,0.02913611607340784
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2010,23.397419008108848,24.313394757616003,22.182767138862644
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2011,1664395.1569992218,1743526.448610442,1578077.4526674526
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2011,0.031282354503728106,0.03264484011823364,0.029715830430472864
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2011,23.64921792346456,24.773586227475363,22.42273862748082
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2012,1697623.2109774812,1784342.9380329053,1597868.2105056373
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2012,0.0318565547363966,0.03322585554159071,0.03022448460282177
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2012,23.82183849214254,25.03873003712059,22.422029927640413
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2013,1725138.367992757,1815191.489501183,1615732.8376155265
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2013,0.032090668634689665,0.033592632274131035,0.030128538713648127
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2013,23.906404554664995,25.15433132629882,22.390298416025843
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2015,1783755.6129060972,1886263.1463472655,1670148.1680127173
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2015,0.032583228040872186,0.0340549117864975,0.030581827041434355
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2015,24.116501792191404,25.50241087977067,22.5805211182953
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2014,1754615.846893546,1856503.3533956774,1643063.135124483
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2014,0.03230872947264726,0.033913891396341524,0.03045234253845056
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2014,24.015686394653002,25.410235753146715,22.488847943340684
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2016,1828325.9531628343,1949627.2694270934,1685876.09722896
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2016,0.033040231232943716,0.03505691391485673,0.030729776231443844
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2016,24.421272906931783,26.04151602787804,22.51854500368445
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2018,1891612.322194345,2044187.3257519833,1737999.6086709106
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2018,0.03354168089349694,0.03576882105509387,0.03120492540818226
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2018,24.688144537114542,26.679458347236114,22.68328718357099
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2017,1855173.9917192273,1992827.8274362923,1709178.9476015624
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2017,0.03323470603306278,0.03515174074264022,0.03093585793274753
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2017,24.48895240467615,26.30603169009262,22.561766220159434
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2019,1933824.6733933326,2092006.084273468,1774774.862273814
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2019,0.03393907072145767,0.036351986716533925,0.03120243501257189
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2019,24.967626369451317,27.009907875001545,22.914132941220448
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2021,2016547.4368651747,2218371.8903818233,1820497.6664727218
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2021,0.029706893931436232,0.03198176920339367,0.02714374581454136
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2021,25.553886133526984,28.111425326427483,23.069524289353904
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1996,1216816.5844231923,1263213.635698219,1172305.2813073222
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1996,0.02483222849934166,0.025743630889773092,0.02396188969352428
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1996,20.985405950276306,21.78557663200954,20.217757171306776
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2002,1380016.5664660125,1434389.6397013655,1325894.29103716
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2002,0.02699440189819952,0.02787671400463421,0.025874001847190114
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2002,22.061278249450613,22.930499334958803,21.196066478270957
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1993,1155250.0420476517,1207414.1498697784,1104693.663168109
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1993,0.024173884630079842,0.025074001019128173,0.023229532889132286
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1993,20.720233626436663,21.65583411260785,19.813468905758477
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2020,1970892.8137292136,2147656.177455658,1788680.346577614
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2020,0.031219544289179325,0.03340640167123096,0.028560547585308627
+1,Deaths,1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2020,25.195617239549897,27.455335283779743,22.866238621572695
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1990,28459836.307810474,29909114.722405493,26973713.082638234
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1990,0.011013159271812458,0.011829901391299854,0.010199342050339889
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1990,533.5929074219291,560.765399721029,505.7296124988567
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1991,28919754.672589596,30524902.079207677,27586464.654315606
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1991,0.01113219504478008,0.011934041520725223,0.010273038885656496
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1991,533.918218570373,563.5525447805004,509.30293951791185
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1992,29452755.48962033,30874166.89760486,28173305.565788962
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1992,0.011341407581790917,0.012123054022656671,0.01051835610473765
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1992,535.7766584364665,561.6336297715193,512.5021160912268
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1993,30122824.208006084,31596144.17046824,28836626.602128424
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1993,0.011526347491080634,0.012336401977720454,0.010678424885848196
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1993,540.2743409311414,566.699385482188,517.2054693331688
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1994,30563852.983813226,31805751.429573573,29441001.100430794
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1994,0.011481707410675468,0.012280663116750901,0.010630892802023399
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1994,540.9091959573507,562.8879134349108,521.0373260808254
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1995,31143546.465275012,32410452.75730856,29902109.292731404
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1995,0.01180399712829112,0.01263016560934373,0.010998863929548318
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1995,544.0812945866658,566.2142914262573,522.3932461577994
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1996,31320834.373189677,32546784.27198732,30226925.310333245
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1996,0.011894211597487896,0.012722395638739979,0.011076508599249912
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1996,540.1639264592403,561.306846953839,521.2982025279622
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1999,32626033.29732785,33824543.94215067,31400922.738503706
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1999,0.01234143043723051,0.01326549554275757,0.011351309537345531
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1999,541.7011784893255,561.6004602320958,521.3602492857407
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2001,33947565.35656864,35207215.743065946,32654134.26300376
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2001,0.012825572620772762,0.013690300189584743,0.011787278864705136
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2001,549.6510706405176,570.0462941653474,528.7088976772918
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2000,33453052.59293327,34722434.809776664,32261409.211053807
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2000,0.01263789948912241,0.013613573285938527,0.011679960303113943
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2000,548.5205777606172,569.3342916974157,528.9815262944672
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1997,31557854.051593002,32748241.222831227,30450997.130056836
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1997,0.012009350095603758,0.012840517249047665,0.01112247011959518
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1997,537.3308991079043,557.5994448703076,518.484610514881
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,1998,32010422.236074902,33135891.087193355,30885690.30059647
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,1998,0.012151440422310034,0.012980151913470832,0.011214817445141755
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,1998,538.1818490724909,557.1040270713115,519.2720606203881
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2006,36633127.92179355,37934084.58538635,35207921.871298045
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2006,0.013921359891271143,0.015042527473205464,0.012732161445776652
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2006,555.997668889814,575.7428807600231,534.3666674788827
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2004,35964498.04488776,37329120.68946664,34520833.73400814
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2004,0.013494314293255186,0.014511668081449287,0.012413390491069331
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2004,560.3367810100407,581.5979775100543,537.8440935879129
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2003,35228118.64812641,36528958.71173022,33929488.18166757
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2003,0.013283496209759141,0.014226520121881667,0.01226870015799057
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2003,555.9888842302965,576.5194332144562,535.4932082821765
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2007,37151819.41682586,38605289.53169298,35777391.51829002
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2007,0.014175614831869477,0.015292626402342687,0.012969532619068982
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2007,556.3827621108975,578.1498176642837,535.7994366503062
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2005,36510120.968060754,37829726.81377001,35066883.53887397
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2005,0.013751047052449929,0.014775865922828663,0.012568836963398097
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2005,561.4913528687728,581.7856507761676,539.295717380908
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2002,34558813.52980978,35896797.73563285,33264135.97470408
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2002,0.013042654076447143,0.014011922093000711,0.012001076934745206
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2002,552.4655426452006,573.8548814222142,531.7685144496272
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2013,41220705.54994938,43383218.70432228,38915005.86715679
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2013,0.015877725055624858,0.017324923068479794,0.01444544968770761
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2013,571.2230863269244,601.1904879466413,539.2714525211454
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2012,40738833.17995685,42752533.51562001,38833417.55460172
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2012,0.015672603778270244,0.016989895747815387,0.01416638312781135
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2012,571.6662555600171,599.9234352790196,544.9285772612625
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2011,40064202.046830446,41967879.33931713,38219938.679063566
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2011,0.015329271808012305,0.016639269443240526,0.013960300140489523
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2011,569.2680858573613,596.3172387923752,543.0631392080228
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2010,39316332.11778191,40833808.91329184,37583692.72992332
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2010,0.01497909206751016,0.016214345127206146,0.013589993218540632
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2010,565.641092804381,587.4729165448591,540.7137411417623
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2008,37949330.120637536,39421345.845348984,36401110.14752668
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2008,0.014418439105462259,0.015567571062059866,0.013122538706640917
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2008,560.6723298676594,582.4202364407707,537.7985638034816
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2009,38710175.558587745,40144011.40739669,37122391.43602628
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2009,0.014817562408899948,0.015919561601908005,0.01358167334976626
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2009,564.2009285960298,585.0990905309428,541.0589700946178
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2019,44950865.47967128,48625160.02058516,41262967.57791546
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2019,0.01729310686838014,0.019391689658497385,0.015249206289368237
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2019,580.3609963826465,627.7998436220275,532.7465160388048
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2018,44202122.73450721,47838911.19997428,40702749.82395372
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2018,0.01700330517635177,0.019018181000165675,0.014997161715221417
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2018,576.8985442275373,624.3636396030046,531.2269109909835
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2017,43525363.24079639,46790756.67381781,40436362.32498255
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2017,0.01672632787940913,0.018580464220031193,0.014824388586930394
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2017,574.550178882318,617.6545263563235,533.7742749816474
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2016,43076957.088708535,46012615.188544676,40174444.17602823
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2016,0.016547715525356294,0.018279174029366442,0.014704867376955269
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2016,575.3865295428795,614.5986336502044,536.6171515586988
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2014,41731393.77012102,44075084.606891334,39415774.9274477
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2014,0.016065096326550832,0.01757535361767701,0.014495946118249923
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2014,571.1837536229696,603.262196457934,539.4895363197071
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2015,42264064.98451154,44764848.10673104,39723435.87675765
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2015,0.01625661990066763,0.017882559209219953,0.014556059446845293
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2015,571.4131417832989,605.2239061125174,537.0636569171421
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2021,46536272.12165932,51205051.410641946,41903412.294428945
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2021,0.01617301680332857,0.018238740264569515,0.01408208134142457
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2021,589.7121868476111,648.8754141301284,531.0041344936953
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",1,Number,2020,45628098.40497651,49835654.99355008,41427616.864556
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",2,Percent,2020,0.0165902915734653,0.018577825729612474,0.014596434285718229
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All ages,426,"Tracheal, bronchus, and lung cancer",3,Rate,2020,583.3032089680422,637.092022129757,529.604842229378
