@@ -2,45 +2,44 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Multi-series Line Chart displaying cigarette tax proportion over time for selected countries.",
     "data": {
-      "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/main/Data/World%20Tax%20Cigarettes.csv",
-      "format": {
-        "type": "csv"
-      }
-    },
+        "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/main/Data/World%20Tax%20Cigarettes.csv",
+        "format": {
+            "type": "csv"
+            }
+        },
     "transform": [
-      {
+        {
         "filter": "datum['Countries, territories and areas'] == 'United States of America' || datum['Countries, territories and areas'] == 'Germany' || datum['Countries, territories and areas'] == 'Japan' || datum['Countries, territories and areas'] == 'Australia' || datum['Countries, territories and areas'] == 'South Africa' || datum['Countries, territories and areas'] == 'Brazil'"
-      },
-      {
+            },
+        {
         "fold": ["2022", "2020", "2018", "2016", "2014", "2012", "2010", "2008"],
         "as": ["Year", "Tax"]
-      },
-      {
-        "calculate": "datum.Tax == null ? 0 : datum.Tax",
-        "as": "TaxPercentage"
-      }
+            },
+        {
+            "calculate": "datum.Tax == null ? 0 : datum.Tax",
+            "as": "TaxPercentage"
+        }
     ],
     "mark": "line",
     "encoding": {
-      "x": {
-        "field": "Year",
-        "type": "ordinal",
-        "title": "Year"
-      },
-      "y": {
-        "field": "TaxPercentage",
-        "type": "quantitative",
-        "title": "Cigarette Tax (%)"
-      },
-      "color": {
-        "field": "Countries, territories and areas",
-        "type": "nominal",
-        "title": "Country"
-      }
+        "x": {
+            "field": "Year",
+            "type": "ordinal",
+            "title": "Year"
+        },
+        "y": {
+            "field": "TaxPercentage",
+            "type": "quantitative",
+            "title": "Cigarette Tax (%)"
+        },
+        "color": {
+            "field": "Countries, territories and areas",
+            "type": "nominal",
+            "title": "Country"
+        }
     },
     "config": {
-      "view": {"stroke": "transparent"},
-      "axis": {"labelColor": "black", "titleColor": "black"}
+        "view": {"stroke": "transparent"},
+        "axis": {"labelColor": "black", "titleColor": "black"}
     }
-  }
-  
+}
