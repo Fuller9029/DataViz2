@@ -35,7 +35,12 @@
         "color": {
             "field": "Countries, territories and areas",
             "type": "nominal",
-            "title": "Country"
+            "title": "Country",
+            "legend": {
+                "titleFontSize": 23,
+                "labelFontSize": 18,
+                "symbolSize": 200
+            }
         }
     },
     "config": {

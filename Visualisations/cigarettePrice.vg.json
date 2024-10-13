@@ -28,10 +28,6 @@
     {
       "calculate": "datum['Most sold brand of cigarettes - price in US$ at official exchange rates'] == null ? 0 : datum['Most sold brand of cigarettes - price in US$ at official exchange rates']",
       "as": "CigarettePrice"
-    },
-    {
-      "calculate": "datum.CigarettePrice === null ? 0 : datum.CigarettePrice",
-      "as": "CigarettePrice"
     }
   ],
   "projection": {
@@ -53,13 +49,14 @@
     },
     "tooltip": [
       {"field": "properties.name", "type": "nominal", "title": "Country"},
+      {"field": "Year", "type": "quantitative", "title": "Year"},
       {"field": "CigarettePrice", "type": "quantitative", "title": "Price in US$"}
     ]
   },
   "params": [
     {
       "name": "selectedYear",
-      "value": 2020,
+      "value": 2008,
       "bind": {
         "input": "select",
         "options": [2020, 2018, 2016, 2014, 2012, 2010, 2008],
