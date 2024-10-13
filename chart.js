@@ -18,6 +18,11 @@ vegaEmbed("#lung_cancer_map", vg_4).then(function(result) {
     // Access the Vega view instance if needed
 }).catch(console.error);
 
+var vg_5 = "Visualisations/australia_smokers.vg.json";
+vegaEmbed("#aus_smokers", vg_5).then(function(result) {
+    // Access the Vega view instance if needed
+}).catch(console.error);
+
 
 fetch("https://raw.githubusercontent.com/Fuller9029/DataViz2/main/Data/World%20Tax%20Cigarettes.csv")
     .then(response => response.text())

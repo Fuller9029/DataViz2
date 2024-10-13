@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Proportion of Australian Adults Smoking by Year (Males and Females)",
+        "anchor": "middle",
+        "align": "center"
+        },
+    "data": {
+        "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/refs/heads/main/Data/proportion-of-australian-adults-not-smoking-or-smoking-daily%2C-by-year.csv",
+        "format": {"type": "csv"}
+        },
+    "transform": [
+        {
+        "fold": ["Males", "Females"],
+        "as": ["Group", "Smoking Percentage"]
+        },
+        {
+        "filter": "datum['Smoking Percentage'] !== null"
+        }
+    ],
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "Category",
+            "type": "nominal",
+            "title": "Year",
+            "axis": {
+                "labelAngle": 45,
+                "labelLimit": 150,
+                "tickCount": 7
+                }
+            },
+        "y": {
+            "field": "Smoking Percentage",
+            "type": "quantitative",
+            "title": "Smoking Percentage (%)"
+        },
+        "color": {
+            "field": "Group",
+            "type": "nominal",
+            "title": "Group",
+            "scale": {
+                "domain": ["Males", "Females"],
+                "range": ["#1f77b4", "#ff7f0e"]
+                }
+            },
+        "column": {
+            "field": "Group",
+            "type": "nominal",
+            "title": "Group"
+        },
+        "tooltip": [
+            {"field": "Group", "type": "nominal", "title": "Group"},
+            {"field": "Smoking Percentage", "type": "quantitative", "title": "Smoking Percentage"}
+        ]
+    },
+    "config": {
+        "view": {
+            "stroke": "transparent",
+            "width": 350 ,  
+            "height": 300  
+        }
+    }
+}
