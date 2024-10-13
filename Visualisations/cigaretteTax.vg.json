@@ -5,16 +5,16 @@
         "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/main/Data/World%20Tax%20Cigarettes.csv",
         "format": {
             "type": "csv"
-            }
-        },
+        }
+    },
     "transform": [
         {
-        "filter": "datum['Countries, territories and areas'] == 'United States of America' || datum['Countries, territories and areas'] == 'Germany' || datum['Countries, territories and areas'] == 'Japan' || datum['Countries, territories and areas'] == 'Australia' || datum['Countries, territories and areas'] == 'South Africa' || datum['Countries, territories and areas'] == 'Brazil'"
-            },
+            "filter": "datum['Countries, territories and areas'] == 'United States of America' || datum['Countries, territories and areas'] == 'Germany' || datum['Countries, territories and areas'] == 'Japan' || datum['Countries, territories and areas'] == 'Australia' || datum['Countries, territories and areas'] == 'South Africa' || datum['Countries, territories and areas'] == 'Brazil'"
+        },
         {
-        "fold": ["2022", "2020", "2018", "2016", "2014", "2012", "2010", "2008"],
-        "as": ["Year", "Tax"]
-            },
+            "fold": ["2022", "2020", "2018", "2016", "2014", "2012", "2010", "2008"],
+            "as": ["Year", "Tax"]
+        },
         {
             "calculate": "datum.Tax == null ? 0 : datum.Tax",
             "as": "TaxPercentage"
@@ -41,5 +41,7 @@
     "config": {
         "view": {"stroke": "transparent"},
         "axis": {"labelColor": "black", "titleColor": "black"}
-    }
+    },
+    "width": 500, 
+    "height": 600    
 }

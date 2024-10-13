@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {"view": {"stroke": ""}},
+  "width": 800,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/refs/heads/main/Data/IHME_Lung_Cancer_Deaths.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "filter": "datum.val != null && datum.year >= 2000 && datum.year <= 2020 && datum.metric_name == 'Number' && datum.cause_name == 'Tracheal, bronchus, and lung cancer'"
+    },
+    {
+      "calculate": "datum.val != null ? floor(datum.val / 50000) : 0",
+      "as": "emoji_count"
+    },
+    {
+      "calculate": "'🫁'",
+      "as": "emoji"
+    }
+  ],
+  "mark": {"type": "text", "baseline": "middle"},
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "axis": {"title": "Year"}
+    },
+    "y": {
+      "field": "location_name",
+      "type": "nominal",
+      "axis": {"title": "Location"}
+    },
+    "text": {
+      "field": "emoji",
+      "type": "nominal",
+      "aggregate": "sum",
+      "title": "Lung Cancer Deaths"
+    },
+    "size": {"value": 50},
+    "color": {"value": "lightblue"}
+  },
+  "title": {
+    "text": "Lung Cancer Deaths (2000-2020) Represented by Lung Emojis",
+    "subtitle": "Each emoji represents 50,000 deaths",
+    "fontSize": 15
+  }
+}

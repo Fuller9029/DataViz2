@@ -13,10 +13,11 @@ vegaEmbed("#Line_chart1", vg_3).then(function(result) {
     // Access the Vega view instance if needed
 }).catch(console.error);
 
-var vg_4 = "Visualisations/test.vg.json";
-vegaEmbed("#test", vg_4).then(function(result) {
+var vg_4 = "Visualisations/lungCancer_deaths.vg.json";
+vegaEmbed("#lung_cancer_map", vg_4).then(function(result) {
     // Access the Vega view instance if needed
 }).catch(console.error);
+
 
 fetch("https://raw.githubusercontent.com/Fuller9029/DataViz2/main/Data/World%20Tax%20Cigarettes.csv")
     .then(response => response.text())

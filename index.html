@@ -27,6 +27,14 @@
             letter-spacing: 2px;
         }
 
+        h2.big-title {
+            text-align: center;
+            color: #343A40;
+            margin-top: 50px;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+
         .subtext {
             text-align: center;
             color: #6C757D;
@@ -45,7 +53,7 @@
             background-color: #FFF;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            text-align: center; /* Center the content inside the chart */
+            text-align: center;
         }
 
         .chart h2 {
@@ -60,7 +68,7 @@
             color: #6C757D;
         }
 
-        #map1, #map2, #Line_chart1 {
+        #map1, #map2, #Line_chart1, #lung_cancer_map {
             height: 400px;
             width: 100%;
         }
@@ -95,16 +103,25 @@
             This section shows the global rates of smoking in different countries. Explore how smoking prevalence varies across the world and understand how it impacts public health.
         </p>
 
-        <!-- Smoking Prevalence Map (Centered) -->
-        <div class="chart">
-            <h2>Global Map: Smoking Prevalence</h2>
-            <div id="map2"></div>
+        <!-- Flex container to display maps side by side -->
+        <div class="flex-container">
+            <!-- Smoking Prevalence Map -->
+            <div class="chart flex-item">
+                <h2>Global Map: Smoking Prevalence</h2>
+                <div id="map2"></div>
+            </div>
+
+            <!-- Lung Cancer Death Rates Map -->
+            <div class="chart flex-item">
+                <h2>Global Map: Lung Cancer Death Rates</h2>
+                <div id="lung_cancer_map"></div>
+            </div>
+        </div>
+
         <!-- What Can Be Done to Reduce Smoking? -->
         <h2 class="big-title">What Can Be Done to Reduce Smoking?</h2>
         <p class="description">
-            Increasing cigarette prices through higher taxes is one of the most effective ways to reduce smoking rates. 
-            This visualization shows how different countries apply taxes and how that impacts cigarette prices. 
-            Explore how pricing strategies can contribute to a healthier population globally.
+            Increasing cigarette prices through higher taxes is one of the most effective ways to reduce smoking rates. This visualization shows how different countries apply taxes and how that impacts cigarette prices. Explore how pricing strategies can contribute to a healthier population globally.
         </p>
 
         <!-- Flex container to display charts side by side -->
