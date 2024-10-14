@@ -3,7 +3,8 @@
     "title": {
         "text": "Proportion of Australian Adults Smoking by Year (Males and Females)",
         "anchor": "middle",
-        "align": "center"
+        "align": "center",
+        "fontSize": 17
         },
     "data": {
         "url": "https://raw.githubusercontent.com/Fuller9029/DataViz2/refs/heads/main/Data/proportion-of-australian-adults-not-smoking-or-smoking-daily%2C-by-year.csv",

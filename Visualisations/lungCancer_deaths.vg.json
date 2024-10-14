@@ -11,7 +11,7 @@
   },
   "transform": [
     {
-      "filter": "datum.year >= 2000 && datum.year <= 2020 && datum.metric_name == 'Number'"
+      "filter": "datum.year >= 2010 && datum.year <= 2020 && datum.metric_name == 'Number'"
     },
     {
       "calculate": "datum.val != null ? floor(datum.val / 300000) : 0",
@@ -48,7 +48,7 @@
     "dx": 0
   },
   "title": {
-    "text": "Lung Cancer Deaths (2000-2020) Represented by Lung Emojis",
+    "text": "Lung Cancer Deaths (2010-2020)",
     "subtitle": "Each emoji represents 300,000 deaths",
     "fontSize": 15
   }
